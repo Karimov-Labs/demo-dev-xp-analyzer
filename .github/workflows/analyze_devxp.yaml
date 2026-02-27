@@ -20,7 +20,6 @@ jobs:
         with:
           api-token: ${{ secrets.DEVXP_API_KEY }}
           api-endpoint: https://push.devxp.net
-          repository-source: github.com
           event-type: push
           include-file-content: 'false'
           mask-usernames: 'false'
